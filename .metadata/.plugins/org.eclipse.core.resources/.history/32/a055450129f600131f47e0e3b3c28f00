@@ -1,0 +1,9 @@
+package br.com.estudo.modelo;
+
+public class ContaBase {
+	
+	protected double saldo;
+	
+	protected double limite;
+
+}

@@ -1,0 +1,13 @@
+package br.com.estudo.factory;
+
+import br.com.estudo.modelo.Conta;
+import br.com.estudo.modelo.ContaPadrao;
+
+public class FactoryProxy {
+	
+	public Conta getContaProxy(){
+		Conta conta = new ContaPadrao();
+		return 
+	}
+
+}

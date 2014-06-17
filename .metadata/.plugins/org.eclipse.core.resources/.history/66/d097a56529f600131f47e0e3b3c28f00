@@ -1,0 +1,23 @@
+package br.com.estudo.modelo;
+
+public class ContaJuridica extends ContaBase implements Conta {
+
+	@Override
+	public void deposita(double valor) {		
+	}
+
+	@Override
+	public void saca(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double getSaldo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

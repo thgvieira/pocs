@@ -1,0 +1,7 @@
+package br.com.estudo.modelo;
+
+public class ContaJuridica extends ContaFisica implements Conta {
+	
+	
+
+}

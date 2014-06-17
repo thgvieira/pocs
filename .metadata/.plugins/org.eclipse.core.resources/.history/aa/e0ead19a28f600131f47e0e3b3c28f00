@@ -1,0 +1,13 @@
+package br.com.estudo.modelo;
+
+public interface Conta {
+	
+	protected double saldo;
+	
+	public void deposita(double valor);
+	
+	public void saca(double valor);
+	
+	public double getSaldo();
+
+}

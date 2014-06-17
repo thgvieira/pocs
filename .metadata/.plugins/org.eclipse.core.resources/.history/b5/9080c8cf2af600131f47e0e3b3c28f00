@@ -1,0 +1,19 @@
+package br.com.estudo.teste;
+
+import br.com.estudo.factory.FactoryProxy;
+import br.com.estudo.modelo.Conta;
+import br.com.estudo.modelo.ContaFisica;
+
+public class ContaProxyTeste {
+
+	public static void main(String[] args) {
+		Conta conta = FactoryProxy.getContaProxy(ContaFisica.class);
+
+		conta.deposita(1000.0);
+		conta.saca(200.0);
+		conta.saca(200.0);
+
+		System.out.println(conta.getSaldo());
+	}
+
+}
